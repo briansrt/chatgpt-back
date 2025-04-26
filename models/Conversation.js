@@ -15,6 +15,6 @@ const conversationSchema = new mongoose.Schema({
   }
 });
 
-const Conversation = mongoose.model('Conversation', conversationSchema);
+const Conversation = mongoose.model('chatgpt', conversationSchema);
 
 export default Conversation;
